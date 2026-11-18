@@ -1,3 +1,32 @@
+html {
+    scroll-behavior: smooth;
+}
+sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #0d1a0c;
+    border-bottom: 2px solid #a65a07;
+    padding: 1rem;
+    text-align: center;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem; 
+}
+
+.sticky-nav a {
+    color: #efcfab;
+    text-decoration: none;
+    font-family: 'DynaPuff', cursive;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.sticky-nav a:hover {
+    color: #a65a07;
+}
+
 h1, h2, h3 {
     font-family: 'DynaPuff', cursive;
     margin-top: 0;
